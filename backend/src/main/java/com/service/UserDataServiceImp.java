@@ -17,4 +17,9 @@ public class UserDataServiceImp implements UserDataService{
 		return repo.findAll();
 		
 	}
+	
+	public void adduser(UserDataDto dto) {
+		repo.save(dto);
+		
+	}
 }

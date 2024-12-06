@@ -9,4 +9,5 @@ import com.dto.UserDataDto;
 public interface UserDataService {
 	
 	public List<UserDataDto> getUser();
+	public void adduser(UserDataDto dto);
 }
